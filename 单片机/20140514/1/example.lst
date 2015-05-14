@@ -1,0 +1,23 @@
+C51 COMPILER V7.50   EXAMPLE                                                               05/14/2014 09:29:49 PAGE 1   
+
+
+C51 COMPILER V7.50, COMPILATION OF MODULE EXAMPLE
+OBJECT MODULE PLACED IN .\example.obj
+COMPILER INVOKED BY: C:\Program Files\keil\C51\BIN\C51.EXE ..\数码管动态显示\example.c BROWSE DEBUG OBJECTEXTEND PRINT(.
+                    -\example.lst) OBJECT(.\example.obj)
+
+line level    source
+
+*** ERROR C202 IN LINE 14 OF ..\事牍芏允綷EXAMPLE.C: 'P1_7': undefined identifier
+*** ERROR C100 IN LINE 26 OF ..\事牍芏允綷EXAMPLE.C: unprintable character 0xA1 skipped
+*** ERROR C100 IN LINE 26 OF ..\事牍芏允綷EXAMPLE.C: unprintable character 0xA1 skipped
+*** ERROR C100 IN LINE 26 OF ..\事牍芏允綷EXAMPLE.C: unprintable character 0xA1 skipped
+*** ERROR C100 IN LINE 26 OF ..\事牍芏允綷EXAMPLE.C: unprintable character 0xA1 skipped
+*** ERROR C100 IN LINE 26 OF ..\事牍芏允綷EXAMPLE.C: unprintable character 0xA1 skipped
+*** ERROR C100 IN LINE 26 OF ..\事牍芏允綷EXAMPLE.C: unprintable character 0xA1 skipped
+*** ERROR C100 IN LINE 26 OF ..\事牍芏允綷EXAMPLE.C: unprintable character 0xA1 skipped
+*** ERROR C100 IN LINE 26 OF ..\事牍芏允綷EXAMPLE.C: unprintable character 0xA1 skipped
+*** ERROR C100 IN LINE 26 OF ..\事牍芏允綷EXAMPLE.C: unprintable character 0xA1 skipped
+*** ERROR C100 IN LINE 26 OF ..\事牍芏允綷EXAMPLE.C: unprintable character 0xA1 skipped
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  11 ERROR(S)

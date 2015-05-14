@@ -1,0 +1,74 @@
+<html>
+<body>
+<pre>
+<h1>µVision3 Build Log</h1>
+<h2>Project:</h2>
+C:\Users\alls\Desktop\2012MCU2\20140514\1\1.uv2
+Project File Date:  05/14/2014
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling example.c...
+linking...
+Program Size: data=26.0 xdata=0 code=222
+"1" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+"1" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+creating hex file from "1"...
+"1" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling example.c...
+linking...
+*** WARNING L5: CODE SPACE MEMORY OVERLAP
+    FROM:    0003H
+    TO:      0005H
+Program Size: data=26.0 xdata=0 code=222
+creating hex file from "1"...
+"1" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling example.c...
+EXAMPLE.C(3): error C242: 'array[]': too many initializers
+Target not created
+Build target 'Target 1'
+compiling example.c...
+EXAMPLE.C(3): error C242: 'array[]': too many initializers
+Target not created
+Build target 'Target 1'
+compiling example.c...
+linking...
+Program Size: data=26.0 xdata=0 code=222
+creating hex file from "1"...
+"1" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling example.c...
+..\ÊÂë¹Ü¶¯Ì¬ÏÔÊ¾\example.c(1): warning C318: can't open file 'AT89X51.H'
+..\ÊÂë¹Ü¶¯Ì¬ÏÔÊ¾\EXAMPLE.C(14): error C202: 'P1_7': undefined identifier
+..\ÊÂë¹Ü¶¯Ì¬ÏÔÊ¾\EXAMPLE.C(16): error C202: 'P0': undefined identifier
+..\ÊÂë¹Ü¶¯Ì¬ÏÔÊ¾\EXAMPLE.C(20): error C202: 'P0': undefined identifier
+..\ÊÂë¹Ü¶¯Ì¬ÏÔÊ¾\EXAMPLE.C(22): error C202: 'P2': undefined identifier
+..\ÊÂë¹Ü¶¯Ì¬ÏÔÊ¾\EXAMPLE.C(26): error C100: unprintable character 0xA1 skipped
+..\ÊÂë¹Ü¶¯Ì¬ÏÔÊ¾\EXAMPLE.C(26): error C100: unprintable character 0xA1 skipped
+..\ÊÂë¹Ü¶¯Ì¬ÏÔÊ¾\EXAMPLE.C(26): error C100: unprintable character 0xA1 skipped
+..\ÊÂë¹Ü¶¯Ì¬ÏÔÊ¾\EXAMPLE.C(26): error C100: unprintable character 0xA1 skipped
+..\ÊÂë¹Ü¶¯Ì¬ÏÔÊ¾\EXAMPLE.C(26): error C100: unprintable character 0xA1 skipped
+..\ÊÂë¹Ü¶¯Ì¬ÏÔÊ¾\EXAMPLE.C(26): error C100: unprintable character 0xA1 skipped
+..\ÊÂë¹Ü¶¯Ì¬ÏÔÊ¾\EXAMPLE.C(26): error C100: unprintable character 0xA1 skipped
+..\ÊÂë¹Ü¶¯Ì¬ÏÔÊ¾\EXAMPLE.C(26): error C100: unprintable character 0xA1 skipped
+..\ÊÂë¹Ü¶¯Ì¬ÏÔÊ¾\EXAMPLE.C(26): error C100: unprintable character 0xA1 skipped
+..\ÊÂë¹Ü¶¯Ì¬ÏÔÊ¾\EXAMPLE.C(26): error C100: unprintable character 0xA1 skipped
+Target not created
+Build target 'Target 1'
+compiling example.c...
+..\ÊÂë¹Ü¶¯Ì¬ÏÔÊ¾\EXAMPLE.C(14): error C202: 'P1_7': undefined identifier
+..\ÊÂë¹Ü¶¯Ì¬ÏÔÊ¾\EXAMPLE.C(26): error C100: unprintable character 0xA1 skipped
+..\ÊÂë¹Ü¶¯Ì¬ÏÔÊ¾\EXAMPLE.C(26): error C100: unprintable character 0xA1 skipped
+..\ÊÂë¹Ü¶¯Ì¬ÏÔÊ¾\EXAMPLE.C(26): error C100: unprintable character 0xA1 skipped
+..\ÊÂë¹Ü¶¯Ì¬ÏÔÊ¾\EXAMPLE.C(26): error C100: unprintable character 0xA1 skipped
+..\ÊÂë¹Ü¶¯Ì¬ÏÔÊ¾\EXAMPLE.C(26): error C100: unprintable character 0xA1 skipped
+..\ÊÂë¹Ü¶¯Ì¬ÏÔÊ¾\EXAMPLE.C(26): error C100: unprintable character 0xA1 skipped
+..\ÊÂë¹Ü¶¯Ì¬ÏÔÊ¾\EXAMPLE.C(26): error C100: unprintable character 0xA1 skipped
+..\ÊÂë¹Ü¶¯Ì¬ÏÔÊ¾\EXAMPLE.C(26): error C100: unprintable character 0xA1 skipped
+..\ÊÂë¹Ü¶¯Ì¬ÏÔÊ¾\EXAMPLE.C(26): error C100: unprintable character 0xA1 skipped
+..\ÊÂë¹Ü¶¯Ì¬ÏÔÊ¾\EXAMPLE.C(26): error C100: unprintable character 0xA1 skipped
+Target not created
