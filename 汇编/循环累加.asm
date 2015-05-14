@@ -1,4 +1,4 @@
-area example,code ,readonly		;Ñ­»·ÊµÏÖ1-10µÄÀÛ¼Ó
+area example,code ,readonly		;å¾ªç¯å®ç°1-10 çš„ç´¯åŠ 
  entry
  code32
 start
