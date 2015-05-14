@@ -1,3 +1,0 @@
-#include<reg51.h>
-unsigned char hello[]={0x3f,0x06,0x5b,0x4f,0x66};
-unsigned char i;
