@@ -1,21 +1,18 @@
 #include<stdio.h>
 
-#define MAXROW 1001            //最大列数
-#define MAXSIZE 10010       //稀疏矩阵中元素最多个数
-
 typedef int ElemType;       
 
 typedef struct
 {
-	int i, j;                //i:行  j:列
+	int i, j;               
 	ElemType e;
-}Triple;                    //三元组
+}Triple;                    
 
 typedef struct
 {
-	Triple data[MAXSIZE + 1]; //三元组表示元素信息
-	int n, m, t;              //n:行m:列t:元素个数
-}Matrix;                  //矩阵
+	Triple data[10001]; 
+	int n, m, t;        
+}Matrix;                
 
 
 void Inst(Matrix &a)
@@ -45,7 +42,7 @@ void Inst(Matrix &a)
 
 void Trans(Matrix a, Matrix &b)
 {
-	int num[MAXROW + 1] = { 0 }, pos[MAXROW + 1] = { 0 };
+int num[10001] = { 0 }, pos[10001] = { 0 };
 	int i, j, p;
 
 	b.n = a.m; b.m = a.n; b.t = a.t;//行列转换
@@ -61,7 +58,7 @@ void Trans(Matrix a, Matrix &b)
 	}
 }
 
-void Out(Matrix a)//依次输出
+void Out(Matrix a)
 {
 	int i, j;
 	int u = 1;

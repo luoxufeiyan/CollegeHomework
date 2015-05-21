@@ -1,5 +1,4 @@
 //My accepted code of Q1
-//已知BUG：最先输入的一组元素无法显示或修改
 #include<stdio.h>
 #include<iostream>
 #include<string>
