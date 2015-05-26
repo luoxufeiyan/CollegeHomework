@@ -1,0 +1,92 @@
+clear all;
+close all;
+r=0.02;
+t=-5:r:5;
+N=200;
+w=2*pi;
+k=-N:N;
+w=k*w/N;
+f1=(sin(2*pi*t))/(pi*t).*stepfun(t,0);
+F=r*f1*exp(-j*t'*w);
+F1=abs(F);
+P1=angle(F);
+subplot(3,1,1);
+plot(t,f1);
+grid on;
+xlabel('t');
+ylabel('f(t)');
+title('f(t)');
+subplot(3,1,2);
+plot(w,F1);
+xlabel('w');
+
+
+
+clear all;
+close all;
+r=0.02;
+t=-5:r:5;
+N=200;
+w=2*pi;
+k=-N:N;
+w=k*w/N;
+f1=(sin(2*pi*3*t))/(pi*3*t).*stepfun(3*t,0);
+F=r*f1*exp(-j*t'*w);
+F1=abs(F);
+P1=angle(F);
+subplot(3,1,1);
+plot(t,f1);
+grid on;
+xlabel('t');
+ylabel('f(t)');
+title('f(t)');
+subplot(3,1,2);
+plot(w,F1);
+xlabel('w');
+
+
+clear all;
+close all;
+r=0.02;
+t=-5:r:5;
+N=200;
+w=2*pi;
+k=-N:N;
+w=k*w/N;
+f1=(sin(2*pi*(t-2)))/(pi*(t-2)).*stepfun(t-2,0);
+F=r*f1*exp(-j*t'*w);
+F1=abs(F);
+P1=angle(F);
+subplot(3,1,1);
+plot(t,f1);
+grid on;
+xlabel('t');
+ylabel('f(t)');
+title('f(t)');
+subplot(3,1,2);
+plot(w,F1);
+xlabel('w');
+
+
+
+clear all;
+close all;
+r=0.02;
+t=-5:r:5;
+N=200;
+w=2*pi;
+k=-N:N;
+w=k*w/N;
+f1=(sin(2*pi*(t/3)))/(pi*(t/3)).*stepfun(t/3,0);
+F=r*f1*exp(-j*t'*w);
+F1=abs(F);
+P1=angle(F);
+subplot(3,1,1);
+plot(t,f1);
+grid on;
+xlabel('t');
+ylabel('f(t)');
+title('f(t)');
+subplot(3,1,2);
+plot(w,F1);
+xlabel('w');
