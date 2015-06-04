@@ -1,11 +1,11 @@
 #include<stdio.h>
 
-typedef int ElemType;       
+//typedef int int;       
 
 typedef struct
 {
 	int i, j;               
-	ElemType e;
+	int e;
 }Triple;                    
 
 typedef struct
@@ -18,7 +18,7 @@ typedef struct
 void Inst(Matrix &a)
 {
 	int i, j;
-	ElemType tmp;
+	int tmp;
 	printf("请输入当前矩阵的行列数，以空格分开哦。\n");
 	scanf("%d%d", &a.n, &a.m);
 	a.t = 0;

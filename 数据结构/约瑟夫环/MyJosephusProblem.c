@@ -1,9 +1,9 @@
-// My accepted code of Q2
+// My accepted code of Q2 C version
 #include <stdlib.h>
-#include <iostream>//C++
-//#include<stdio.c>
+//#include <iostream>//C++
+#include<stdio.c>
 #include <stdarg.h>
-using namespace std;
+//using namespace std;
 
 
 typedef struct _LinkNode //开链表
@@ -20,7 +20,7 @@ LinkNodePtr createCycle(int total)//创建循环
 	head->value = index;
 	prev = head;//循环
 
-	while (--total > 0)// total--
+	while (--total > 0)// total
 	{
 		curr = (LinkNodePtr)malloc(sizeof(LinkNode));
 		curr->value = ++index;
@@ -35,7 +35,7 @@ void run(int total, int tag)
 {
 	LinkNodePtr node = createCycle(total);
 	//total;
-	//LinkNodePtr prev = NULL;//初始化
+	LinkNodePtr prev = NULL;//初始化
 	int start = 1;
 	int index = start;
 	while (node && node->next)
@@ -71,14 +71,13 @@ int main(int argc, char* argv[])
 	int i=1;
 	while (1)
 	{
-		cout << "请输入初始序号，退出按1" << endl;
-		//cin >> peo;
+		printf("请输入初始序号，退出按1。\n");
 		scanf("%d",&peo);
 		if (peo == 1)
 			break;
 		else if (peo < 1)
 		{
-			cout << "输入不合法，必须要输入大于一的正整数" << endl;
+			printf("输入不合法，必须输入大于一的正整数");
 			continue;
 		}
 		else
