@@ -1,0 +1,13 @@
+fs=100;
+x=-2:1/fs:2;
+y=sin(3*pi*x);
+z=rectpuls(x);
+figure;plot(x,y,x,z,':r');
+my=abs(fft(y));
+mz=abs(fft(z));
+my=my/max(my);
+mz=mz/max(mz); 
+f=(0:1/length(x):1)*fs;
+figure;plot(f(1:fs/2),my(1:fs/2),f(1:fs/2),mz(1:fs/2),':r');
+my=20*log10(my+eps);mz=20*log10(mz+eps);
+figure;plot(f(1:fs/2),my(1:fs/2),f(1:fs/2),mz(1:fs/2),':r');
