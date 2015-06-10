@@ -1,7 +1,7 @@
 //C version
 #include <stdlib.h>
 //#include <iostream>//C++
-#include<stdio.c>
+#include<stdio.h>
 #include <stdarg.h>
 //using namespace std;
 
