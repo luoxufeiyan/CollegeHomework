@@ -1,0 +1,108 @@
+Added Component: Designator=C1(RAD-0.3)
+Added Component: Designator=C2(RAD-0.3)
+Added Component: Designator=R1(AXIAL-0.4)
+Added Component: Designator=R2(AXIAL-0.4)
+Added Component: Designator=R3(AXIAL-0.4)
+Added Component: Designator=U0(N16E)
+Added Component: Designator=U2(M14A_N)
+Added Component: Designator=U3(M14A_N)
+Added Component: Designator=U4(J16A)
+Added Component: Designator=U5(J16A)
+Added Component: Designator=U5(M14A_N)
+Added Component: Designator=U6(J16A)
+Added Component: Designator=U7(J16A)
+Added Component: Designator=Y0(R38)
+Added Pin To Net: NetName=+5 Pin=U4-10
+Added Pin To Net: NetName=+5 Pin=U5-10
+Added Pin To Net: NetName=+5 Pin=U6-10
+Added Pin To Net: NetName=+5 Pin=U7-10
+Added Net: Name=+5
+Added Pin To Net: NetName=GND Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=GND Pin=C2-1
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=GND Pin=R1-1
+Added Pin To Net: NetName=GND Pin=R1-2
+Added Pin To Net: NetName=GND Pin=R2-1
+Added Pin To Net: NetName=GND Pin=R3-1
+Added Pin To Net: NetName=GND Pin=U0-8
+Added Pin To Net: NetName=GND Pin=U0-10
+Added Pin To Net: NetName=GND Pin=U0-11
+Added Pin To Net: NetName=GND Pin=U0-12
+Added Pin To Net: NetName=GND Pin=U2-7
+Added Pin To Net: NetName=GND Pin=U3-7
+Added Pin To Net: NetName=GND Pin=U4-3
+Added Pin To Net: NetName=GND Pin=U4-4
+Added Pin To Net: NetName=GND Pin=U4-9
+Added Pin To Net: NetName=GND Pin=U4-12
+Added Pin To Net: NetName=GND Pin=U4-13
+Added Pin To Net: NetName=GND Pin=U5-3
+Added Pin To Net: NetName=GND Pin=U5-4
+Added Pin To Net: NetName=GND Pin=U5-5
+Added Pin To Net: NetName=GND Pin=U5-7
+Added Pin To Net: NetName=GND Pin=U5-9
+Added Pin To Net: NetName=GND Pin=U5-12
+Added Pin To Net: NetName=GND Pin=U5-13
+Added Pin To Net: NetName=GND Pin=U6-3
+Added Pin To Net: NetName=GND Pin=U6-4
+Added Pin To Net: NetName=GND Pin=U6-9
+Added Pin To Net: NetName=GND Pin=U6-12
+Added Pin To Net: NetName=GND Pin=U6-13
+Added Pin To Net: NetName=GND Pin=U7-3
+Added Pin To Net: NetName=GND Pin=U7-4
+Added Pin To Net: NetName=GND Pin=U7-5
+Added Pin To Net: NetName=GND Pin=U7-9
+Added Pin To Net: NetName=GND Pin=U7-12
+Added Pin To Net: NetName=GND Pin=U7-13
+Added Pin To Net: NetName=GND Pin=Y0-1
+Added Pin To Net: NetName=GND Pin=Y0-2
+Added Net: Name=GND
+Added Pin To Net: NetName=NetR2_2 Pin=R2-2
+Added Pin To Net: NetName=NetR2_2 Pin=U3-3
+Added Pin To Net: NetName=NetR2_2 Pin=U4-1
+Added Pin To Net: NetName=NetR2_2 Pin=U5-1
+Added Net: Name=NetR2_2
+Added Pin To Net: NetName=NetR3_2 Pin=R3-2
+Added Pin To Net: NetName=NetR3_2 Pin=U5-10
+Added Pin To Net: NetName=NetR3_2 Pin=U6-1
+Added Pin To Net: NetName=NetR3_2 Pin=U7-1
+Added Net: Name=NetR3_2
+Added Pin To Net: NetName=NetU0_3 Pin=U0-3
+Added Pin To Net: NetName=NetU0_3 Pin=U2-3
+Added Net: Name=NetU0_3
+Added Pin To Net: NetName=NetU2_2 Pin=U2-2
+Added Pin To Net: NetName=NetU2_2 Pin=U2-5
+Added Net: Name=NetU2_2
+Added Pin To Net: NetName=NetU3_1 Pin=U3-1
+Added Pin To Net: NetName=NetU3_1 Pin=U4-6
+Added Net: Name=NetU3_1
+Added Pin To Net: NetName=NetU3_2 Pin=U3-2
+Added Pin To Net: NetName=NetU3_2 Pin=U4-11
+Added Net: Name=NetU3_2
+Added Pin To Net: NetName=NetU4_5 Pin=U4-5
+Added Pin To Net: NetName=NetU4_5 Pin=U5-7
+Added Net: Name=NetU4_5
+Added Pin To Net: NetName=NetU4_15 Pin=U4-15
+Added Net: Name=NetU4_15
+Added Pin To Net: NetName=NetU5_8 Pin=U5-8
+Added Pin To Net: NetName=NetU5_8 Pin=U6-6
+Added Net: Name=NetU5_8
+Added Pin To Net: NetName=NetU5_9 Pin=U5-9
+Added Pin To Net: NetName=NetU5_9 Pin=U7-11
+Added Net: Name=NetU5_9
+Added Pin To Net: NetName=NetU6_5 Pin=U6-5
+Added Pin To Net: NetName=NetU6_5 Pin=U7-7
+Added Net: Name=NetU6_5
+Added Pin To Net: NetName=NetU6_15 Pin=U6-15
+Added Pin To Net: NetName=NetU6_15 Pin=U7-15
+Added Net: Name=NetU6_15
+Added Pin To Net: NetName=VDD Pin=U2-14
+Added Pin To Net: NetName=VDD Pin=U3-14
+Added Pin To Net: NetName=VDD Pin=U5-14
+Added Net: Name=VDD
+Added Class: Name=24进制计数器
+Added Class: Name=60进制计数器
+Added Class: Name=秒信号发生器
+Added Room: Name=24进制计数器
+Added Room: Name=60进制计数器
+Added Room: Name=秒信号发生器

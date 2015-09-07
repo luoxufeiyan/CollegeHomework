@@ -1,0 +1,202 @@
+Added Component: Designator=C1(RAD-0.3)
+Added Component: Designator=C1(RAD-0.3)
+Added Component: Designator=C2(RAD-0.3)
+Added Component: Designator=C2(RAD-0.3)
+Added Component: Designator=R1(AXIAL-0.4)
+Added Component: Designator=R1(AXIAL-0.4)
+Added Component: Designator=R2(AXIAL-0.4)
+Added Component: Designator=R2(AXIAL-0.4)
+Added Component: Designator=R3(AXIAL-0.4)
+Added Component: Designator=R3(AXIAL-0.4)
+Added Component: Designator=U0(N16E)
+Added Component: Designator=U0(N16E)
+Added Component: Designator=U1(M14A_N)
+Added Component: Designator=U2(M14A_N)
+Added Component: Designator=U2(J16A)
+Added Component: Designator=U3(M14A_N)
+Added Component: Designator=U3(M14A_N)
+Added Component: Designator=U4(J16A)
+Added Component: Designator=U4(J16A)
+Added Component: Designator=U5(J16A)
+Added Component: Designator=U5(J16A)
+Added Component: Designator=U5(M14A_N)
+Added Component: Designator=U6(J16A)
+Added Component: Designator=U6(J16A)
+Added Component: Designator=U7(M14A_N)
+Added Component: Designator=U7(J16A)
+Added Component: Designator=Y0(R38)
+Added Component: Designator=Y0(R38)
+Added Pin To Net: NetName=GND Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=GND Pin=C2-1
+Added Pin To Net: NetName=GND Pin=C2-1
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=GND Pin=R1-1
+Added Pin To Net: NetName=GND Pin=R1-1
+Added Pin To Net: NetName=GND Pin=R1-2
+Added Pin To Net: NetName=GND Pin=R1-2
+Added Pin To Net: NetName=GND Pin=R2-1
+Added Pin To Net: NetName=GND Pin=R2-1
+Added Pin To Net: NetName=NetR2_2 Pin=R2-2
+Added Pin To Net: NetName=GND Pin=R3-1
+Added Pin To Net: NetName=GND Pin=R3-1
+Added Pin To Net: NetName=NetR3_2 Pin=R3-2
+Added Pin To Net: NetName=NetU0_3 Pin=U0-3
+Added Pin To Net: NetName=GND Pin=U0-8
+Added Pin To Net: NetName=GND Pin=U0-8
+Added Pin To Net: NetName=GND Pin=U0-10
+Added Pin To Net: NetName=GND Pin=U0-10
+Added Pin To Net: NetName=GND Pin=U0-11
+Added Pin To Net: NetName=GND Pin=U0-11
+Added Pin To Net: NetName=GND Pin=U0-12
+Added Pin To Net: NetName=GND Pin=U0-12
+Added Pin To Net: NetName=NetU1_1 Pin=U1-1
+Added Pin To Net: NetName=NetU1_2 Pin=U1-2
+Added Pin To Net: NetName=NetU0_3 Pin=U1-3
+Added Pin To Net: NetName=NetU1_2 Pin=U1-5
+Added Pin To Net: NetName=GND Pin=U1-7
+Added Pin To Net: NetName=VDD Pin=U1-14
+Added Pin To Net: NetName=NetU2_2 Pin=U2-2
+Added Pin To Net: NetName=GND Pin=U2-3
+Added Pin To Net: NetName=GND Pin=U2-4
+Added Pin To Net: NetName=GND Pin=U2-5
+Added Pin To Net: NetName=NetU2_6 Pin=U2-6
+Added Pin To Net: NetName=GND Pin=U2-7
+Added Pin To Net: NetName=NetU2_7 Pin=U2-7
+Added Pin To Net: NetName=GND Pin=U2-9
+Added Pin To Net: NetName=+5 Pin=U2-10
+Added Pin To Net: NetName=NetU2_11 Pin=U2-11
+Added Pin To Net: NetName=GND Pin=U2-12
+Added Pin To Net: NetName=GND Pin=U2-13
+Added Pin To Net: NetName=NetU2_14 Pin=U2-14
+Added Pin To Net: NetName=VDD Pin=U2-14
+Added Pin To Net: NetName=NetU1_1 Pin=U2-15
+Added Pin To Net: NetName=NetU3_1 Pin=U3-1
+Added Pin To Net: NetName=NetU3_2 Pin=U3-2
+Added Pin To Net: NetName=NetR2_2 Pin=U3-3
+Added Pin To Net: NetName=GND Pin=U3-7
+Added Pin To Net: NetName=GND Pin=U3-7
+Added Pin To Net: NetName=VDD Pin=U3-14
+Added Pin To Net: NetName=VDD Pin=U3-14
+Added Pin To Net: NetName=NetR2_2 Pin=U4-1
+Added Pin To Net: NetName=NetU4_2 Pin=U4-2
+Added Pin To Net: NetName=GND Pin=U4-3
+Added Pin To Net: NetName=GND Pin=U4-3
+Added Pin To Net: NetName=GND Pin=U4-4
+Added Pin To Net: NetName=GND Pin=U4-4
+Added Pin To Net: NetName=NetU2_7 Pin=U4-5
+Added Pin To Net: NetName=NetU4_5 Pin=U4-5
+Added Pin To Net: NetName=NetU3_1 Pin=U4-6
+Added Pin To Net: NetName=GND Pin=U4-9
+Added Pin To Net: NetName=GND Pin=U4-9
+Added Pin To Net: NetName=+5 Pin=U4-10
+Added Pin To Net: NetName=+5 Pin=U4-10
+Added Pin To Net: NetName=NetU3_2 Pin=U4-11
+Added Pin To Net: NetName=GND Pin=U4-12
+Added Pin To Net: NetName=GND Pin=U4-12
+Added Pin To Net: NetName=GND Pin=U4-13
+Added Pin To Net: NetName=GND Pin=U4-13
+Added Pin To Net: NetName=NetU4_14 Pin=U4-14
+Added Pin To Net: NetName=NetU1_1 Pin=U4-15
+Added Pin To Net: NetName=NetU4_15 Pin=U4-15
+Added Pin To Net: NetName=NetR2_2 Pin=U5-1
+Added Pin To Net: NetName=NetU5_2 Pin=U5-2
+Added Pin To Net: NetName=GND Pin=U5-3
+Added Pin To Net: NetName=GND Pin=U5-3
+Added Pin To Net: NetName=GND Pin=U5-4
+Added Pin To Net: NetName=GND Pin=U5-4
+Added Pin To Net: NetName=GND Pin=U5-5
+Added Pin To Net: NetName=GND Pin=U5-5
+Added Pin To Net: NetName=NetU5_6 Pin=U5-6
+Added Pin To Net: NetName=GND Pin=U5-7
+Added Pin To Net: NetName=NetU4_5 Pin=U5-7
+Added Pin To Net: NetName=NetU5_7 Pin=U5-7
+Added Pin To Net: NetName=NetU5_8 Pin=U5-8
+Added Pin To Net: NetName=GND Pin=U5-9
+Added Pin To Net: NetName=GND Pin=U5-9
+Added Pin To Net: NetName=NetU5_9 Pin=U5-9
+Added Pin To Net: NetName=+5 Pin=U5-10
+Added Pin To Net: NetName=+5 Pin=U5-10
+Added Pin To Net: NetName=NetR3_2 Pin=U5-10
+Added Pin To Net: NetName=NetU5_11 Pin=U5-11
+Added Pin To Net: NetName=GND Pin=U5-12
+Added Pin To Net: NetName=GND Pin=U5-12
+Added Pin To Net: NetName=GND Pin=U5-13
+Added Pin To Net: NetName=GND Pin=U5-13
+Added Pin To Net: NetName=NetU5_14 Pin=U5-14
+Added Pin To Net: NetName=VDD Pin=U5-14
+Added Pin To Net: NetName=NetR3_2 Pin=U6-1
+Added Pin To Net: NetName=NetU6_2 Pin=U6-2
+Added Pin To Net: NetName=GND Pin=U6-3
+Added Pin To Net: NetName=GND Pin=U6-3
+Added Pin To Net: NetName=GND Pin=U6-4
+Added Pin To Net: NetName=GND Pin=U6-4
+Added Pin To Net: NetName=NetU5_7 Pin=U6-5
+Added Pin To Net: NetName=NetU6_5 Pin=U6-5
+Added Pin To Net: NetName=NetU5_8 Pin=U6-6
+Added Pin To Net: NetName=NetU6_6 Pin=U6-6
+Added Pin To Net: NetName=GND Pin=U6-9
+Added Pin To Net: NetName=GND Pin=U6-9
+Added Pin To Net: NetName=+5 Pin=U6-10
+Added Pin To Net: NetName=+5 Pin=U6-10
+Added Pin To Net: NetName=NetU6_11 Pin=U6-11
+Added Pin To Net: NetName=GND Pin=U6-12
+Added Pin To Net: NetName=GND Pin=U6-12
+Added Pin To Net: NetName=GND Pin=U6-13
+Added Pin To Net: NetName=GND Pin=U6-13
+Added Pin To Net: NetName=NetU6_14 Pin=U6-14
+Added Pin To Net: NetName=NetU6_15 Pin=U6-15
+Added Pin To Net: NetName=NetR3_2 Pin=U7-1
+Added Pin To Net: NetName=GND Pin=U7-3
+Added Pin To Net: NetName=GND Pin=U7-4
+Added Pin To Net: NetName=GND Pin=U7-5
+Added Pin To Net: NetName=GND Pin=U7-7
+Added Pin To Net: NetName=NetU6_5 Pin=U7-7
+Added Pin To Net: NetName=NetU6_6 Pin=U7-8
+Added Pin To Net: NetName=GND Pin=U7-9
+Added Pin To Net: NetName=NetU5_11 Pin=U7-9
+Added Pin To Net: NetName=+5 Pin=U7-10
+Added Pin To Net: NetName=NetU5_9 Pin=U7-11
+Added Pin To Net: NetName=GND Pin=U7-12
+Added Pin To Net: NetName=GND Pin=U7-13
+Added Pin To Net: NetName=VDD Pin=U7-14
+Added Pin To Net: NetName=NetU6_15 Pin=U7-15
+Added Pin To Net: NetName=GND Pin=Y0-1
+Added Pin To Net: NetName=GND Pin=Y0-1
+Added Pin To Net: NetName=GND Pin=Y0-2
+Added Pin To Net: NetName=GND Pin=Y0-2
+Added Member To Class: ClassName=原理总图 Member=Component C1 Cap
+Added Member To Class: ClassName=秒信号发生器 Member=Component C1 Cap
+Added Member To Class: ClassName=原理总图 Member=Component C2 Cap
+Added Member To Class: ClassName=秒信号发生器 Member=Component C2 Cap
+Added Member To Class: ClassName=原理总图 Member=Component R1 Res2
+Added Member To Class: ClassName=秒信号发生器 Member=Component R1 Res2
+Added Member To Class: ClassName=60进制计数器 Member=Component R2 Res2
+Added Member To Class: ClassName=原理总图 Member=Component R2 Res2
+Added Member To Class: ClassName=24进制计数器 Member=Component R3 Res2
+Added Member To Class: ClassName=原理总图 Member=Component R3 Res2
+Added Member To Class: ClassName=原理总图 Member=Component U0 CD4060BCN
+Added Member To Class: ClassName=秒信号发生器 Member=Component U0 CD4060BCN
+Added Member To Class: ClassName=原理总图 Member=Component U1 CD4013BCM
+Added Member To Class: ClassName=原理总图 Member=Component U2 CD4029BMJ
+Added Member To Class: ClassName=秒信号发生器 Member=Component U2 CD4013BCM
+Added Member To Class: ClassName=60进制计数器 Member=Component U3 CD4081BCM
+Added Member To Class: ClassName=原理总图 Member=Component U3 CD4081BCM
+Added Member To Class: ClassName=60进制计数器 Member=Component U4 CD4029BMJ
+Added Member To Class: ClassName=原理总图 Member=Component U4 CD4029BMJ
+Added Member To Class: ClassName=24进制计数器 Member=Component U5 CD4081BCM
+Added Member To Class: ClassName=60进制计数器 Member=Component U5 CD4029BMJ
+Added Member To Class: ClassName=原理总图 Member=Component U5 CD4029BMJ
+Added Member To Class: ClassName=24进制计数器 Member=Component U6 CD4029BMJ
+Added Member To Class: ClassName=原理总图 Member=Component U6 CD4029BMJ
+Added Member To Class: ClassName=24进制计数器 Member=Component U7 CD4029BMJ
+Added Member To Class: ClassName=原理总图 Member=Component U7 CD4081BCM
+Added Member To Class: ClassName=原理总图 Member=Component Y0 XTAL
+Added Member To Class: ClassName=秒信号发生器 Member=Component Y0 XTAL
+Added Room: Name=24进制计数器
+Added Room: Name=60进制计数器
+Added Room: Name=原理总图
+Added Room: Name=秒信号发生器
