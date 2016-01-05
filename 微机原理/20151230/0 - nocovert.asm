@@ -69,7 +69,7 @@ LESS80:
     LOOP LP3
 
     
-    ;此处输入代码段代码
+    ;RETURN TO DOS
     MOV AH,4CH
     INT 21H
     ;DISP AL
