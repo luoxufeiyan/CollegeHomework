@@ -1,0 +1,15 @@
+Analysis & Synthesis Status : Successful - Sat Apr 02 20:46:45 2016
+Quartus II 64-Bit Version : 9.1 Build 222 10/21/2009 SJ Full Version
+Revision Name : DFF2
+Top-level Entity Name : DFF2
+Family : Stratix II
+Logic utilization : N/A
+    Combinational ALUTs : 1
+    Dedicated logic registers : 1
+Total registers : 1
+Total pins : 6
+Total virtual pins : 0
+Total block memory bits : 0
+DSP block 9-bit elements : 0
+Total PLLs : 0
+Total DLLs : 0

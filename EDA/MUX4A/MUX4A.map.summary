@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sat Apr 02 16:36:06 2016
+Quartus II Version : 9.1 Build 222 10/21/2009 SJ Full Version
+Revision Name : MUX4A
+Top-level Entity Name : MUX4A
+Family : Cyclone III
+Total logic elements : 6
+    Total combinational functions : 6
+    Dedicated logic registers : 0
+Total registers : 0
+Total pins : 9
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

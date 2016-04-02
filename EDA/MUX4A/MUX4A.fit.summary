@@ -1,0 +1,16 @@
+Fitter Status : Successful - Sat Apr 02 16:36:16 2016
+Quartus II Version : 9.1 Build 222 10/21/2009 SJ Full Version
+Revision Name : MUX4A
+Top-level Entity Name : MUX4A
+Family : Cyclone III
+Device : EP3C55F484C8
+Timing Models : Final
+Total logic elements : 6 / 55,856 ( < 1 % )
+    Total combinational functions : 6 / 55,856 ( < 1 % )
+    Dedicated logic registers : 0 / 55,856 ( 0 % )
+Total registers : 0
+Total pins : 9 / 328 ( 3 % )
+Total virtual pins : 0
+Total memory bits : 0 / 2,396,160 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 312 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

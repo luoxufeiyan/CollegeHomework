@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sat Apr 02 15:55:13 2016
+Quartus II 64-Bit Version : 9.1 Build 222 10/21/2009 SJ Full Version
+Revision Name : TLTR3_8
+Top-level Entity Name : TLTR3_8
+Family : Cyclone III
+Total logic elements : 8
+    Total combinational functions : 8
+    Dedicated logic registers : 0
+Total registers : 0
+Total pins : 11
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

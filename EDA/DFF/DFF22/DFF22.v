@@ -1,0 +1,13 @@
+module DFF22(A,B,C,D,Y);
+	input A,B,C,D;
+	output Y;
+	wire TP1=A|B;
+	wire TP2=C&D;
+	wire Y0=TP1^TP2;
+	reg Y;
+	always@(A,TP1)
+	begin
+		if(TP1) Y=Y0;
+		else Y<=A;
+	end
+endmodule

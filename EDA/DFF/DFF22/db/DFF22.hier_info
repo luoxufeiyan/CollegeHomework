@@ -1,0 +1,9 @@
+|DFF22
+A => TP1.IN0
+A => Y.DATAA
+B => TP1.IN1
+C => TP2.IN0
+D => TP2.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
