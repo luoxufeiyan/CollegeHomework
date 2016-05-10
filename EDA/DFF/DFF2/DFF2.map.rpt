@@ -1,6 +1,6 @@
 Analysis & Synthesis report for DFF2
-Sat Apr 02 20:46:45 2016
-Quartus II 64-Bit Version 9.1 Build 222 10/21/2009 SJ Full Version
+Wed Apr 13 10:02:26 2016
+Quartus II Version 9.1 Build 222 10/21/2009 SJ Full Version
 
 
 ---------------------
@@ -39,8 +39,8 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                             ;
 +-------------------------------+------------------------------------------+
-; Analysis & Synthesis Status   ; Successful - Sat Apr 02 20:46:45 2016    ;
-; Quartus II 64-Bit Version     ; 9.1 Build 222 10/21/2009 SJ Full Version ;
+; Analysis & Synthesis Status   ; Successful - Wed Apr 13 10:02:26 2016    ;
+; Quartus II Version            ; 9.1 Build 222 10/21/2009 SJ Full Version ;
 ; Revision Name                 ; DFF2                                     ;
 ; Top-level Entity Name         ; DFF2                                     ;
 ; Family                        ; Stratix II                               ;
@@ -137,13 +137,13 @@ applicable agreement for further details.
 +----------------------------------------------------------------------------+--------------------+--------------------+
 
 
-+------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                     ;
-+----------------------------------+-----------------+------------------------+------------------------------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path ;
-+----------------------------------+-----------------+------------------------+------------------------------+
-; DFF2.v                           ; yes             ; User Verilog HDL File  ; C:/EDA/DFF2/DFF2.v           ;
-+----------------------------------+-----------------+------------------------+------------------------------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                 ;
++------------------------------------------------------+-----------------+------------------------+------------------------------------------------------+
+; File Name with User-Entered Path                     ; Used in Netlist ; File Type              ; File Name with Absolute Path                         ;
++------------------------------------------------------+-----------------+------------------------+------------------------------------------------------+
+; //VBOXSVR/Github/CollegeHomework/EDA/DFF/DFF2/DFF2.v ; yes             ; User Verilog HDL File  ; //VBOXSVR/Github/CollegeHomework/EDA/DFF/DFF2/DFF2.v ;
++------------------------------------------------------+-----------------+------------------------+------------------------------------------------------+
 
 
 +--------------------------------------------------------+
@@ -215,12 +215,12 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Analysis & Synthesis Messages ;
 +-------------------------------+
 Info: *******************************************************************
-Info: Running Quartus II 64-Bit Analysis & Synthesis
+Info: Running Quartus II Analysis & Synthesis
     Info: Version 9.1 Build 222 10/21/2009 SJ Full Version
-    Info: Processing started: Sat Apr 02 20:46:45 2016
+    Info: Processing started: Wed Apr 13 10:02:24 2016
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off DFF2 -c DFF2
 Info: Only one processor detected - disabling parallel compilation
-Warning: Entity "DFF2" obtained from "C:/EDA/DFF2/DFF2.v" instead of from Quartus II megafunction library
+Warning: Entity "DFF2" obtained from "//VBOXSVR/Github/CollegeHomework/EDA/DFF/DFF2/DFF2.v" instead of from Quartus II megafunction library
 Info: Found 1 design units, including 1 entities, in source file dff2.v
     Info: Found entity 1: DFF2
 Info: Elaborating entity "DFF2" for the top level hierarchy
@@ -228,10 +228,10 @@ Info: Implemented 7 device resources after synthesis - the final resource count 
     Info: Implemented 5 input pins
     Info: Implemented 1 output pins
     Info: Implemented 1 logic cells
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 261 megabytes
-    Info: Processing ended: Sat Apr 02 20:46:45 2016
-    Info: Elapsed time: 00:00:00
+Info: Quartus II Analysis & Synthesis was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 215 megabytes
+    Info: Processing ended: Wed Apr 13 10:02:26 2016
+    Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:01
 
 

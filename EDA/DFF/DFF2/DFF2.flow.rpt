@@ -1,6 +1,6 @@
 Flow report for DFF2
-Sat Apr 02 20:46:52 2016
-Quartus II 64-Bit Version 9.1 Build 222 10/21/2009 SJ Full Version
+Wed Apr 13 10:02:36 2016
+Quartus II Version 9.1 Build 222 10/21/2009 SJ Full Version
 
 
 ---------------------
@@ -38,24 +38,22 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------+
 ; Flow Summary                                                             ;
 +-------------------------------+------------------------------------------+
-; Flow Status                   ; Successful - Sat Apr 02 20:46:52 2016    ;
-; Quartus II 64-Bit Version     ; 9.1 Build 222 10/21/2009 SJ Full Version ;
+; Flow Status                   ; Successful - Wed Apr 13 10:02:36 2016    ;
+; Quartus II Version            ; 9.1 Build 222 10/21/2009 SJ Full Version ;
 ; Revision Name                 ; DFF2                                     ;
 ; Top-level Entity Name         ; DFF2                                     ;
 ; Family                        ; Stratix II                               ;
-; Met timing requirements       ; Yes                                      ;
-; Logic utilization             ; < 1 %                                    ;
-;     Combinational ALUTs       ; 1 / 12,480 ( < 1 % )                     ;
-;     Dedicated logic registers ; 1 / 12,480 ( < 1 % )                     ;
+; Met timing requirements       ; N/A                                      ;
+; Logic utilization             ; N/A                                      ;
+;     Combinational ALUTs       ; 1                                        ;
+;     Dedicated logic registers ; 1                                        ;
 ; Total registers               ; 1                                        ;
-; Total pins                    ; 6 / 343 ( 2 % )                          ;
+; Total pins                    ; 6                                        ;
 ; Total virtual pins            ; 0                                        ;
-; Total block memory bits       ; 0 / 419,328 ( 0 % )                      ;
-; DSP block 9-bit elements      ; 0 / 96 ( 0 % )                           ;
-; Total PLLs                    ; 0 / 6 ( 0 % )                            ;
-; Total DLLs                    ; 0 / 2 ( 0 % )                            ;
-; Device                        ; EP2S15F484C3                             ;
-; Timing Models                 ; Final                                    ;
+; Total block memory bits       ; 0                                        ;
+; DSP block 9-bit elements      ; 0                                        ;
+; Total PLLs                    ; 0                                        ;
+; Total DLLs                    ; 0                                        ;
 +-------------------------------+------------------------------------------+
 
 
@@ -64,7 +62,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 04/02/2016 20:46:45 ;
+; Start date & time ; 04/13/2016 10:02:25 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; DFF2                ;
 +-------------------+---------------------+
@@ -75,45 +73,37 @@ applicable agreement for further details.
 +------------------------------------+-------------------------------+---------------+-------------+----------------+
 ; Assignment Name                    ; Value                         ; Default Value ; Entity Name ; Section Id     ;
 +------------------------------------+-------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID              ; 8796752875637.145960120500856 ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID              ; 8796752875637.146051294503792 ; --            ; --          ; --             ;
 ; PARTITION_COLOR                    ; 16764057                      ; --            ; --          ; Top            ;
 ; PARTITION_NETLIST_TYPE             ; SOURCE                        ; --            ; --          ; Top            ;
 ; USE_GENERATED_PHYSICAL_CONSTRAINTS ; Off                           ; --            ; --          ; eda_blast_fpga ;
 +------------------------------------+-------------------------------+---------------+-------------+----------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------+
-; Flow Elapsed Time                                                                                                           ;
-+-------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Module Name             ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
-+-------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis    ; 00:00:00     ; 1.0                     ; 257 MB              ; 00:00:01                           ;
-; Fitter                  ; 00:00:03     ; 1.0                     ; 328 MB              ; 00:00:03                           ;
-; Assembler               ; 00:00:01     ; 1.0                     ; 274 MB              ; 00:00:01                           ;
-; Classic Timing Analyzer ; 00:00:00     ; 1.0                     ; 195 MB              ; 00:00:00                           ;
-; Total                   ; 00:00:04     ; --                      ; --                  ; 00:00:05                           ;
-+-------------------------+--------------+-------------------------+---------------------+------------------------------------+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:00:02     ; 1.0                     ; 214 MB              ; 00:00:01                           ;
+; Total                ; 00:00:02     ; --                      ; --                  ; 00:00:01                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
-+------------------------------------------------------------------------------------------+
-; Flow OS Summary                                                                          ;
-+-------------------------+------------------+---------------+------------+----------------+
-; Module Name             ; Machine Hostname ; OS Name       ; OS Version ; Processor type ;
-+-------------------------+------------------+---------------+------------+----------------+
-; Analysis & Synthesis    ; 81-11            ; Windows Vista ; 6.2        ; x86_64         ;
-; Fitter                  ; 81-11            ; Windows Vista ; 6.2        ; x86_64         ;
-; Assembler               ; 81-11            ; Windows Vista ; 6.2        ; x86_64         ;
-; Classic Timing Analyzer ; 81-11            ; Windows Vista ; 6.2        ; x86_64         ;
-+-------------------------+------------------+---------------+------------+----------------+
++---------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                       ;
++----------------------+------------------+---------------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name       ; OS Version ; Processor type ;
++----------------------+------------------+---------------+------------+----------------+
+; Analysis & Synthesis ; 81-11            ; Windows Vista ; 6.2        ; x86_64         ;
++----------------------+------------------+---------------+------------+----------------+
 
 
 ------------
 ; Flow Log ;
 ------------
 quartus_map --read_settings_files=on --write_settings_files=off DFF2 -c DFF2
-quartus_fit --read_settings_files=off --write_settings_files=off DFF2 -c DFF2
-quartus_asm --read_settings_files=off --write_settings_files=off DFF2 -c DFF2
-quartus_tan --read_settings_files=off --write_settings_files=off DFF2 -c DFF2 --timing_analysis_only
+quartus_eda --read_settings_files=on --write_settings_files=off DFF2 -c DFF2
 
 
 

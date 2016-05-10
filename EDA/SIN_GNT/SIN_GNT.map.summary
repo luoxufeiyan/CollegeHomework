@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue May 10 23:11:02 2016
+Quartus II 64-Bit Version : 9.1 Build 222 10/21/2009 SJ Full Version
+Revision Name : SIN_GNT
+Top-level Entity Name : SIN_GNT
+Family : Cyclone III
+Total logic elements : 7
+    Total combinational functions : 7
+    Dedicated logic registers : 7
+Total registers : 7
+Total pins : 18
+Total virtual pins : 0
+Total memory bits : 1,024
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
