@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed May 11 13:34:54 2016
+Quartus II Version : 9.1 Build 222 10/21/2009 SJ Full Version
+Revision Name : LPM_T
+Top-level Entity Name : LPM_T
+Family : Cyclone III
+Total logic elements : 721
+    Total combinational functions : 427
+    Dedicated logic registers : 566
+Total registers : 566
+Total pins : 18
+Total virtual pins : 0
+Total memory bits : 62,464
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
